@@ -38,7 +38,7 @@ real.
 2. **Registrar no Claude Code da VDI:**
 
    ```powershell
-   claude mcp add vs2005-debug -- "<caminho>\bin\Debug\net10.0-windows\vs2005-debug-mcp.exe"
+   claude mcp add vs2005-debug -- "<caminho>\bin\Debug\net10.0-windows\Vs2005DebugMcp.exe"
    ```
 
    Antes, se quiser isolar problema de protocolo de problema de COM:

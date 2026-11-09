@@ -1,4 +1,4 @@
-# vs2005-debug-mcp
+# Vs2005DebugMcp
 
 MCP server (C#, stdio, JSON-RPC 2.0) que expõe ao Claude Code controle
 programático do debugger do Visual Studio 2005, via automação COM
@@ -70,14 +70,14 @@ dotnet build -p:Vs2005InstallDir="C:\Program Files\Microsoft Visual Studio 8"
 {
   "mcpServers": {
     "vs2005-debug": {
-      "command": "caminho\\para\\vs2005-debug-mcp.exe",
+      "command": "caminho\\para\\Vs2005DebugMcp.exe",
       "args": []
     }
   }
 }
 ```
 
-`claude mcp add vs2005-debug -- caminho\para\vs2005-debug-mcp.exe`
+`claude mcp add vs2005-debug -- caminho\para\Vs2005DebugMcp.exe`
 
 ## Tools expostos
 

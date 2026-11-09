@@ -21,7 +21,7 @@ server.RegisterHandler("initialize", _ => Task.FromResult<JsonNode?>(new JsonObj
     ["capabilities"] = new JsonObject { ["tools"] = new JsonObject() },
     ["serverInfo"] = new JsonObject
     {
-        ["name"] = "vs2005-debug-mcp",
+        ["name"] = "Vs2005DebugMcp",
         ["version"] = "0.2.0-phase2",
     },
 }));
